@@ -1,0 +1,19 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "This is simple landing page use anime.js",
+  "main": "main.js",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.7",
+    "postcss": "^8.3.6"
+  },
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "build": "parcel build ./index.html"
+  },
+  "author": "Soheil Nikroo",
+  "license": "ISC"
+}
